@@ -127,14 +127,14 @@ def app():
             
             #load data
             if symbol.upper()=='WIPRO':
-                df = pd.read_csv("C:/Users/Shreyas Nimje/stockmarket_project/WIPRO.csv")
+                df = pd.read_csv("WIPRO.csv")
             elif symbol.upper() == 'NTPC':
-                df = pd.read_csv("C:/Users/Shreyas Nimje/stockmarket_project/NTPC.csv")
+                df = pd.read_csv("NTPC.csv")
             elif symbol.upper() == 'ITC':
-                df = pd.read_csv("C:/Users/Shreyas Nimje/stockmarket_project/ITC.csv")
+                df = pd.read_csv("ITC.csv")
                 
             elif symbol.upper() == 'CANARA BANK':
-                df = pd.read_csv("C:/Users/Shreyas Nimje/stockmarket_project/canara.csv")
+                df = pd.read_csv("canara.csv")
             else:
                 df = pd.DataFrame(columns = ['Date','Open','High','Low','Close','No.of Shares','Total Turnover'])
                 
